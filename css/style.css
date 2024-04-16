@@ -1,0 +1,344 @@
+/*Base*/
+* {
+  box-sizing: border-box; }
+
+/*Utilities*/
+/*Variables*/
+/*Layout*/
+.headerinicio {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  margin: 0px;
+  padding: 10px;
+  text-align: center; }
+  .headerinicio h1 a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Six Caps";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 1rem; }
+  .headerinicio nav ul a {
+    display: inline;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 0px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal; }
+
+nav ul a:hover {
+  color: #BC264B; }
+
+.headerpages {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+  text-align: center; }
+  .headerpages h1 a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Six Caps";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 1rem; }
+  .headerpages nav ul a {
+    display: inline;
+    text-align: start;
+    padding: 3rem;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal; }
+
+nav ul a:hover {
+  color: #BC264B; }
+
+.footerinicio {
+  background-color: black;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 15px; }
+  .footerinicio .footerconteiner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    color: white; }
+
+i:hover {
+  color: #BC264B; }
+
+.footerpages {
+  background-color: black;
+  padding: 2rem;
+  flex-wrap: nowrap; }
+  .footerpages .footerconteiner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    color: white; }
+
+i {
+  color: white; }
+
+i:hover {
+  color: #BC264B; }
+
+.maininicio {
+  position: relative; }
+
+.mainpages {
+  position: relative;
+  padding: 4rem;
+  border: 0px;
+  margin: 0px; }
+
+.body1 {
+  background-image: url(../assets/img/Otras-img/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0px;
+  padding: 0px; }
+
+.body-pages {
+  margin: 0px;
+  padding: 0px; }
+
+@media (max-width: 768px) {
+  .headerinicio {
+    padding: 5px; }
+    .headerinicio h1 a {
+      font-size: 60px; }
+    .headerinicio nav ul a {
+      padding: 30px;
+      font-size: 11px; }
+    .headerinicio .footerinicio {
+      font-size: 13px; }
+  .headerpages nav ul a {
+    font-size: 11px;
+    padding: 20px; } }
+
+@media (max-width: 425px) {
+  .headerinicio .qwertycustom1 {
+    font-size: 10px; }
+    .headerinicio .qwertycustom1 a {
+      font-size: 40px; }
+  .headerinicio nav ul {
+    text-align: center; }
+    .headerinicio nav ul a {
+      font-size: 10px;
+      padding: 10px; }
+  .footerinicio .footerconteiner {
+    font-size: 10px; }
+  .footerpages .footerconteiner {
+    font-size: 10px; }
+  .headerpages nav ul a {
+    font-size: 11px;
+    padding: 12px; }
+  .card {
+    height: 250px;
+    width: 300px; }
+    .card .card-image {
+      height: 300px;
+      width: 300px;
+      background-position: center; }
+    .card .product-names {
+      font-size: 14px; }
+    .card .carrito {
+      font-size: 8px;
+      padding: 0.5px 0.5px;
+      margin: 8px 8px; } }
+
+@media (max-width: 375px) {
+  .headerinicio h1 a {
+    font-size: 35px; }
+  .headerinicio nav ul a {
+    font-size: 10px;
+    padding: 12px; }
+  .footerinicio div .divfooter {
+    font-size: 8px; }
+  .headerpages nav ul a {
+    font-size: 10px;
+    padding: 12px; }
+  .footerpages .footerconteiner {
+    font-size: 8px; }
+  .card .card-image {
+    width: 310px;
+    height: 385px;
+    background-position: center; }
+  .card h1 {
+    font-size: 17px; }
+  .card p {
+    font-size: 10px; } }
+
+@media (max-width: 320px) {
+  .headerinicio h1 a {
+    font-size: 40px; }
+  .headerinicio nav ul a {
+    font-size: 8px;
+    padding: 10px; }
+  .headerpages h1 a {
+    font-size: 40px; }
+  .headerpages nav ul a {
+    font-size: 8px;
+    padding: 10px; }
+  .footerinicio {
+    font-size: 7px; }
+  .footerpages {
+    font-size: 7px; }
+  .card {
+    height: 150px;
+    width: 100px; }
+    .card .card-image {
+      height: 100px;
+      width: 270px;
+      background-size: contain; }
+    .card .product-names {
+      font-size: 12px; }
+    .card .carrito {
+      font-size: 7px; } }
+
+/*Components*/
+.container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .container .card {
+    background-color: #E2E2E2;
+    width: 500px;
+    height: 600px;
+    margin: 10px; }
+    .container .card .card-image {
+      height: 430px;
+      margin-bottom: 15px;
+      background-size: cover;
+      margin: 20px 20px; }
+    .container .card .product-names {
+      text-decoration: none;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-weight: 500; }
+    .container .card .carrito {
+      background-color: #BC264B;
+      color: white;
+      text-align: center;
+      padding: 2px 2px;
+      margin: 20px 70px; }
+
+.keycap1 {
+  background-image: url(../assets/img/Keycaps/Kitty-Paw-Aluminium-Alloy-Artisan-Keycap-5.jpg); }
+
+.keycap2 {
+  background-image: url(../assets/img/Keycaps/UFO-Aluminium-Alloy-Artisan-Keycap.jpg); }
+
+.keycap3 {
+  background-image: url(../assets/img/Keycaps/Hammer-Aluminum-Alloy-Artisan-Keycap.jpg); }
+
+.keycap4 {
+  background-image: url(../assets/img/Keycaps/Keychron-Dye-sub-pbt-keycaps-forest-1.jpg); }
+
+.keycap5 {
+  background-image: url(../assets/img/Keycaps/keychron_k8_oem_retro_keycap_set.jpg); }
+
+.keycap6 {
+  background-image: url(../assets/img/Keycaps/it-iso-oem-pbt-keycap-set-blue.jpg); }
+
+.keycap7 {
+  background-image: url(../assets/img/Keycaps/Keychron-q1-q2-k2-oem-dye-sub-pbt-keycap-set-orange.jpg); }
+
+.keycap8 {
+  background-image: url(../assets/img/Keycaps/iso-it-q1-k2-oem-dye-sub-pbt-keycap-set-it.jpg); }
+
+.teclado1 {
+  background-image: url(../assets/img/Teclado/Teclado1.jpg); }
+
+.teclado2 {
+  background-image: url(../assets/img/Teclado/Teclado2.jpg); }
+
+.teclado3 {
+  background-image: url(../assets/img/Teclado/Teclado3.jpg); }
+
+.teclado4 {
+  background-image: url(../assets/img/Teclado/Teclado4.jpg); }
+
+.teclado5 {
+  background-image: url(../assets/img/Teclado/Teclado5.jpg); }
+
+.teclado6 {
+  background-image: url(../assets/img/Teclado/Teclado6.jpg); }
+
+.teclado7 {
+  background-image: url(../assets/img/Teclado/Teclado7.jpg); }
+
+.teclado8 {
+  background-image: url(../assets/img/Teclado/Teclado8.jpg); }
+
+.plates1 {
+  background-image: url(../assets/img/Plates/Keychron-Q0-Keyboard-Aluminum-Plate.jpg); }
+
+.plates2 {
+  background-image: url(../assets/img/Plates/Keychron-Q0-Keyboard-Brass-Plate.jpg); }
+
+.plates3 {
+  background-image: url(../assets/img/Plates/Keychron-V10-Keyboard-ANSI-Layout-Aluminum-Plate.jpg); }
+
+.plates4 {
+  background-image: url(../assets/img/Plates/Keychron-V10-Keyboard-ANSI-Layout-Brass-Plate.jpg); }
+
+.plates5 {
+  background-image: url(../assets/img/Plates/Keychron-V3-ANSI-Brass-Plate.jpg); }
+
+.plates6 {
+  background-image: url(../assets/img/Plates/Keychron-V3-ANSI-PC-Plate.jpg); }
+
+.plates7 {
+  background-image: url(../assets/img/Plates/keychron-q2-custom-keyboard-aluminum-plate-ansi.jpg); }
+
+.plates8 {
+  background-image: url(../assets/img/Plates/keychron-q2-custom-mechanical-keyboard-ansi-brass-plate.jpg); }
+
+.accesorios1 {
+  background-image: url(../assets/img/Accesorios/gateron-switch-puller-package.jpg); }
+
+.accesorios2 {
+  background-image: url(../assets/img/Accesorios/Keychron-Aluminum-Knob.jpg); }
+
+.accesorios3 {
+  background-image: url(../assets/img/Accesorios/Keychron-K7-pouch-black2.jpg); }
+
+.accesorios4 {
+  background-image: url(../assets/img/Accesorios/Keychron-Premium-Coiled-Cable-Aviator-Type-C-Cable-Black-Angled.jpg); }
+
+.accesorios5 {
+  background-image: url(../assets/img/Accesorios/Keychron-Klube-1.jpg); }
+
+.accesorios6 {
+  background-image: url(../assets/img/Accesorios/Gateron-Switch-Puller-Red.jpg); }
+
+.accesorios7 {
+  background-image: url(../assets/img/Accesorios/Keychron-USB-Bluetooth-Adapter-for-Windows-11-10-8-PC.jpg); }
+
+.accesorios8 {
+  background-image: url(../assets/img/Accesorios/Keychron-Gold-Plated-PCB-Mounted-Screw-In-Stabilizer-Set_1.jpg); }
